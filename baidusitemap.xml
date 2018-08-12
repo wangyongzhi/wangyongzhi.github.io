@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>http://zhige.me/2018/04/02/2018/04/node_module_version_inconsistent/</loc>
+    <lastmod>2018-08-12T06:14:16.611Z</lastmod>
+    <data>
+        <display>
+        <title>NODE_MODULE_VERSION inconsistency</title>
+        <pubTime>2018-04-02T05:33:19.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="Hexo" url="http://zhige.me/categories/Hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://zhige.me/2018/08/11/2018/08/%E3%80%8A%E8%87%B3%E6%9A%97%E6%97%B6%E5%88%BB%E3%80%8B%7C%20%E6%8B%A5%E6%8A%B1%E4%BD%A0%E7%9A%84%E8%87%B3%E6%9A%97%E6%97%B6%E5%88%BB/</loc>
     <lastmod>2018-08-12T05:03:38.605Z</lastmod>
     <data>
@@ -1045,26 +1065,6 @@
 
     
   <url>
-    <loc>http://zhige.me/2018/04/02/2018/04/node_module_version_inconsistent/</loc>
-    <lastmod>2018-04-02T05:58:22.000Z</lastmod>
-    <data>
-        <display>
-        <title>NODE_MODULE_VERSION inconsistency</title>
-        <pubTime>2018-04-02T05:33:19.000Z</pubTime>
-        
-        <tag>node.js</tag>
-         
-         
-           
-             
-              <breadCrumb title="node.js" url="http://zhige.me/categories/node-js/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://zhige.me/2018/04/01/2018/04/%E5%A4%B4%E5%8F%B7%E7%8E%A9%E5%AE%B6-%E6%96%AF%E7%9A%AE%E5%B0%94%E4%BC%AF%E6%A0%BC%E6%8A%8A%E6%B8%B8%E6%88%8F%E7%8E%A9%E5%87%BA%E4%BA%86%E6%96%B0%E9%AB%98%E5%BA%A6/</loc>
     <lastmod>2018-04-02T05:42:10.000Z</lastmod>
     <data>
@@ -1292,11 +1292,11 @@
         <title>Mac中IntelliJ IDEA快捷键</title>
         <pubTime>2016-10-21T09:48:22.000Z</pubTime>
         
+        <tag>IntelliJ IDEA</tag>
+         
         <tag>Mac</tag>
          
         <tag>eclipse</tag>
-         
-        <tag>IntelliJ IDEA</tag>
          
          
            
