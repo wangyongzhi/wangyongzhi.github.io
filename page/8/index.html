@@ -369,6 +369,193 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://zhige.me/2017/07/23/2017/201707/es_auto_restart/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="志哥">
+      <meta itemprop="description" content="互联网技术分享，读书笔记，个人随笔">
+      <meta itemprop="image" content="/images/touxiang.jpeg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="志哥的成长笔记">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/07/23/2017/201707/es_auto_restart/" itemprop="url">
+                  Elasticsearch 自动重启脚本，同样适用于其他应用
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2017-07-23 20:50:32" itemprop="dateCreated datePublished" datetime="2017-07-23T20:50:32+08:00">2017-07-23</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2018-03-31 21:23:39" itemprop="dateModified" datetime="2018-03-31T21:23:39+08:00">2018-03-31</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Elasticsearch/" itemprop="url" rel="index"><span itemprop="name">Elasticsearch</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2017/07/23/2017/201707/es_auto_restart/" class="leancloud_visitors" data-flag-title="Elasticsearch 自动重启脚本，同样适用于其他应用">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数：</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body han-init-context" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>应产品要求，让写个 es 的自动重启的脚本，如果 es 挂了，要在分分钟之内重启，当时我的内心是崩溃的，像我这种 Linux 只会<code>cd</code>、 <code>ls</code> 的哪会写什么脚本啊，无奈，只能去谷歌了，边看边改，没想到还真给写出来了，貌似还不难，是不是有什么漏洞我就母鸡了。</p>
+<p>es 自动重启，首先要知道 es 是怎么启的，下载，配置，启动，这里就略过了。直接看脚本吧。</p>
+<h4 id="创建脚本"><a href="#创建脚本" class="headerlink" title="创建脚本"></a>创建脚本</h4><p>首先创建个 sh 文件，<code>es_monitor.sh</code>，内容很简单，判断 es 进程是否存在，存在就算了，不存在就重启。</p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2017/07/23/2017/201707/es_auto_restart/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://zhige.me/2017/07/16/2017/201707/secureCRT_port_forwarding/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1997,192 +2184,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://zhige.me/2016/12/06/2016/201612/Centos安装Go与beego环境的配置文档/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="志哥">
-      <meta itemprop="description" content="互联网技术分享，读书笔记，个人随笔">
-      <meta itemprop="image" content="/images/touxiang.jpeg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="志哥的成长笔记">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2016/12/06/2016/201612/Centos安装Go与beego环境的配置文档/" itemprop="url">
-                  Centos安装Go与beego环境的配置文档
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2016-12-06 21:30:02" itemprop="dateCreated datePublished" datetime="2016-12-06T21:30:02+08:00">2016-12-06</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2016-12-07 00:32:36" itemprop="dateModified" datetime="2016-12-07T00:32:36+08:00">2016-12-07</time>
-              
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/" itemprop="url" rel="index"><span itemprop="name">Linux</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2016/12/06/2016/201612/Centos安装Go与beego环境的配置文档/" class="leancloud_visitors" data-flag-title="Centos安装Go与beego环境的配置文档">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数：</span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body han-init-context" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h3 id="一、Go环境配置："><a href="#一、Go环境配置：" class="headerlink" title="一、Go环境配置："></a>一、Go环境配置：</h3><h4 id="1、下载Go源码包"><a href="#1、下载Go源码包" class="headerlink" title="1、下载Go源码包"></a>1、下载Go源码包</h4><p><code>wget https://storage.googleapis.com/golang/go1.7.3.linux-amd64.tar.gz</code></p>
-<h4 id="2、编译安装Go到-usr-local"><a href="#2、编译安装Go到-usr-local" class="headerlink" title="2、编译安装Go到/usr/local"></a>2、编译安装Go到/usr/local</h4><p><code>tar zxvf go1.7.3.linux-amd64.tar.gz -C /usr/local/</code></p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2016/12/06/2016/201612/Centos安装Go与beego环境的配置文档/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
@@ -2234,7 +2235,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">113</span>
+                    <span class="site-state-item-count">114</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
