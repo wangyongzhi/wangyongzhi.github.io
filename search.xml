@@ -7,15 +7,12 @@
       <title><![CDATA[【high-speed-downloader】百度网盘不限速下载 支持 Windows 和 Mac]]></title>
       <url>http://zhige.me/2018/12/01/2018/12/high-speed-downloader/</url>
       <content type="html"><![CDATA[<p>之前已经推荐过几个工具：</p>
-<p>【proxyee-down】支持 Mac 和 Windows，</p>
-<p>【BaiduNetdiskPlugin-macOS】仅支持 Mac，</p>
-<p>【pandownload】仅支持 Windows 。</p>
+<p>【proxyee-down】支持 Mac 和 Windows，<br>【BaiduNetdiskPlugin-macOS】仅支持 Mac，<br>【pandownload】仅支持 Windows 。</p>
 <p>参见：</p>
 <p><a href="https://blog.csdn.net/zhige_me/article/details/80465191" target="_blank" rel="noopener">如何把百度网盘下载速度提高 100 倍，我推荐这个下载工具</a> </p>
 <p><a href="https://blog.csdn.net/zhige_me/article/details/84673974" target="_blank" rel="noopener">【破解 SVIP】提升百度网盘下载速度的另一种方法</a></p>
 <p><a href="http://pandownload.com/" target="_blank" rel="noopener">PanDownload</a></p>
 <p>可能有些会不定时的出现不好使的情况，所以又找了另外一种方式。</p>
-<a id="more"></a>
 <p>开源地址：<a href="https://github.com/high-speed-downloader/high-speed-downloader" target="_blank" rel="noopener">https://github.com/high-speed-downloader/high-speed-downloader</a></p>
 <p>看效果：可以说是非常快了，比其他几种方式都快。</p>
 <p><img src="https://ws2.sinaimg.cn/large/006tNbRwly1fxrdmrlptoj31d40awmy3.jpg" alt=""></p>
@@ -32,6 +29,7 @@
 <p>福利：我这里有一些电子书的存货，估计有上万本吧，各个类型的都有，关注我的公众号「志哥的成长笔记」（ID：zhige-me），后台回复 「阅读」 获取。更多好文也在这</p>
 <p>转载请务必注明原创地址为：<br><a href="http://zhige.me/2018/12/01/2018/12/high-speed-downloader/">http://zhige.me/2018/12/01/2018/12/high-speed-downloader/</a></p>
 <p>往期干货：<br><a href="https://mp.weixin.qq.com/s?__biz=MzI1Njc0Nzg2Ng==&amp;mid=2247484167&amp;idx=1&amp;sn=ef12ec11d06228e13e4348cd256d3b27&amp;chksm=ea20b332dd573a24d97b8f44ff355af9c777d5dcd23873e9b267079aeaeef41572b802c36786&amp;token=1146176983&amp;lang=zh_CN#rd" target="_blank" rel="noopener">Picsew | 推荐一款长截图和长图拼接工具</a><br><a href="https://mp.weixin.qq.com/s?__biz=MzI1Njc0Nzg2Ng==&amp;mid=2247484120&amp;idx=1&amp;sn=a3074c153ccffa7c012c6ee5a2de3056&amp;chksm=ea20b2eddd573bfb615d57581536ceea94ad8c9b528c9ed03b98c62cf6d695815d5825c76ac1&amp;token=1524062602&amp;lang=zh_CN#rd" target="_blank" rel="noopener">滴答清单 | 记性差的人不能错过的任务管理神器</a><br><a href="https://mp.weixin.qq.com/s?__biz=MzI1Njc0Nzg2Ng==&amp;mid=2247484056&amp;idx=1&amp;sn=a0ec337582765252f98237712c71668f&amp;chksm=ea20b2addd573bbba4185c1940180e7b2247c6de7a782ff1831780db78aff0b5de814cc93484&amp;token=1327818270&amp;lang=zh_CN#rd" target="_blank" rel="noopener">别告诉我你会笔记，告诉你两个实用技巧</a><br><a href="https://mp.weixin.qq.com/s?__biz=MzI1Njc0Nzg2Ng==&amp;mid=2247484025&amp;idx=1&amp;sn=eda51bf2b383fff3ffcb091c3e286b1b&amp;chksm=ea20b24cdd573b5ae79c88c424c4f24f92aa9afeacd08a1ecde836d72f4f3314662e6e024444&amp;token=1977469400&amp;lang=zh_CN&amp;scene=21#wechat_redirect" target="_blank" rel="noopener">学会这几个搜索技巧，你的效率将提高 10 倍</a><br><a href="https://mp.weixin.qq.com/s?__biz=MzI1Njc0Nzg2Ng==&amp;mid=2247484078&amp;idx=1&amp;sn=171c28a9a3f81aa596ebc7d2c54a41cf&amp;chksm=ea20b29bdd573b8d7a3fcb45fd21944432cd1bbf0ff257b11f81edf3117849214c37cbc6609f&amp;token=1327818270&amp;lang=zh_CN#rd" target="_blank" rel="noopener">白描 | 有了这款扫描软件，从此摘抄更加方便</a><br><a href="https://mp.weixin.qq.com/s?__biz=MzI1Njc0Nzg2Ng==&amp;mid=2247483985&amp;idx=1&amp;sn=a5b5bebc1451586f1a3a8f06cd0f81e6&amp;chksm=ea20b264dd573b72fef1157b959258b17d8dd560ec8e43cd5b77b225c514f1a8c6f99825c904&amp;token=1977469400&amp;lang=zh_CN&amp;scene=21#wechat_redirect" target="_blank" rel="noopener">跟着 Apple 中国学习顶级中文文案排版</a><br><a href="https://mp.weixin.qq.com/s?__biz=MzI1Njc0Nzg2Ng==&amp;mid=2247483976&amp;idx=1&amp;sn=8749853dd42ef3e1f0f1d1026001ed1f&amp;chksm=ea20b27ddd573b6b0fa42437b198c12027733cac022018a41c0ba2d9d940a190434f4da0ecc9&amp;token=1977469400&amp;lang=zh_CN&amp;scene=21#wechat_redirect" target="_blank" rel="noopener">推荐一个免费阅读神器</a><br><a href="https://mp.weixin.qq.com/s?__biz=MzI1Njc0Nzg2Ng==&amp;mid=2247483949&amp;idx=1&amp;sn=3a23ba716efe28f3afa60df286f429ef&amp;chksm=ea20b218dd573b0eea3316c9f7c33f2dd906a6a8d9c95429f45a4fe12f4401d8036aa92038de&amp;token=1977469400&amp;lang=zh_CN&amp;scene=21#wechat_redirect" target="_blank" rel="noopener">推荐 9 个免费图片网站，我的存货都在这了</a><br><a href="https://mp.weixin.qq.com/s?__biz=MzI1Njc0Nzg2Ng==&amp;mid=2247483944&amp;idx=1&amp;sn=bae6090ea30053f153d654560d6fd3b7&amp;chksm=ea20b21ddd573b0b005dd85158bef274d8f532cedfc34cd3f02f2fdf262152be4e0ed569db0b&amp;token=1977469400&amp;lang=zh_CN&amp;scene=21#wechat_redirect" target="_blank" rel="noopener">推荐几款公众号写作必备工具</a><br><a href="https://mp.weixin.qq.com/s?__biz=MzI1Njc0Nzg2Ng==&amp;mid=2247483821&amp;idx=1&amp;sn=8fd8a21ef104cc189036639437b2d128&amp;chksm=ea20b198dd57388e9097d81a11f4453939c59bf5473ab270aac130afa12f44b8196a6dabb06f&amp;token=1977469400&amp;lang=zh_CN&amp;scene=21#wechat_redirect" target="_blank" rel="noopener">如何让豆瓣和 IMDb 互相显示评分</a></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/1197115-7e3bc61b4ca02d6f.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
 ]]></content>
       
         <categories>
@@ -52,8 +50,14 @@
     <entry>
       <title><![CDATA[【破解 SVIP】提升百度网盘下载速度的另一种方法]]></title>
       <url>http://zhige.me/2018/12/01/2018/12/%E3%80%90%E7%A0%B4%E8%A7%A3%20SVIP%E3%80%91%E6%8F%90%E5%8D%87%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E4%B8%8B%E8%BD%BD%E9%80%9F%E5%BA%A6%E7%9A%84%E5%8F%A6%E4%B8%80%E7%A7%8D%E6%96%B9%E6%B3%95/</url>
-      <content type="html"><![CDATA[<p>友情提示：Windows用户可以去这个网站看看 <a href="http://pandownload.com/" target="_blank" rel="noopener">http://pandownload.com/</a></p>
-<p>之前写过一篇 <a href="https://blog.csdn.net/zhige_me/article/details/80465191" target="_blank" rel="noopener">如何把百度网盘下载速度提高 100 倍，我推荐这个下载工具</a> ，</p>
+      <content type="html"><![CDATA[<p>友情提示，如果不好使，可以看看其他几篇：</p>
+<p>其他几个类似工具：</p>
+<p>【high-speed-downloader】支持 Mac 和 Windows，<br>【proxyee-down】支持 Mac 和 Windows，<br>【pandownload】仅支持 Windows 。</p>
+<p>参见：</p>
+<p><a href="https://blog.csdn.net/zhige_me/article/details/84676016" target="_blank" rel="noopener">【high-speed-downloader】百度网盘不限速下载 支持 Windows 和 Mac</a></p>
+<p><a href="https://blog.csdn.net/zhige_me/article/details/80465191" target="_blank" rel="noopener">如何把百度网盘下载速度提高 100 倍，我推荐这个下载工具</a> </p>
+<p><a href="http://pandownload.com/" target="_blank" rel="noopener">PanDownload</a></p>
+<h3 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h3><p>之前写过一篇 <a href="https://blog.csdn.net/zhige_me/article/details/80465191" target="_blank" rel="noopener">如何把百度网盘下载速度提高 100 倍，我推荐这个下载工具</a> ，</p>
 <p>用到的工具是  <a href="https://github.com/proxyee-down-org/proxyee-down" target="_blank" rel="noopener">proxyee-down</a> ，地址是 <a href="https://github.com/proxyee-down-org/proxyee-down" target="_blank" rel="noopener">https://github.com/proxyee-down-org/proxyee-down</a> ，</p>
 <p>不过有时候它会被限制，百度应该做了封杀，这两天我也不能用了，就去找了下还有没有其他的方式，然后就发现了另一位大神的工具，地址如下：</p>
 <a id="more"></a>
@@ -3021,36 +3025,40 @@
     <entry>
       <title><![CDATA[如何把百度网盘下载速度提高 100 倍，我推荐这个下载工具]]></title>
       <url>http://zhige.me/2018/05/26/2018/05/how_to_improve_download_speed_of_baidu_skydrive/</url>
-      <content type="html"><![CDATA[<p>应该有很多小伙伴平时的文件、资源都会放到百度网盘上面，或者从别人网盘上找到各种资源，但是当你下载的时候你就发现百度云是以这种速度龟速下载。对，每秒几十 KB，小的文件还好，如果稍微大点的软件，就得先去玩一天，慢慢等着了。</p>
-<p><img src="https://ws3.sinaimg.cn/large/006tKfTcgy1froussdxsdj313s060dgu.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p>友情提示，如果不好使，可以看看其他几篇：</p>
+<p>其他几个类似工具：</p>
+<p>【high-speed-downloader】支持 Mac 和 Windows，<br>【BaiduNetdiskPlugin-macOS】仅支持 Mac，<br>【pandownload】仅支持 Windows 。</p>
+<p>参见：</p>
+<p><a href="https://blog.csdn.net/zhige_me/article/details/84676016" target="_blank" rel="noopener">【high-speed-downloader】百度网盘不限速下载 支持 Windows 和 Mac</a></p>
+<p><a href="https://blog.csdn.net/zhige_me/article/details/84673974" target="_blank" rel="noopener">【破解 SVIP】提升百度网盘下载速度的另一种方法</a></p>
+<p><a href="http://pandownload.com/" target="_blank" rel="noopener">PanDownload</a></p>
+<h3 id="正文："><a href="#正文：" class="headerlink" title="正文："></a>正文：</h3><p>应该有很多小伙伴平时的文件、资源都会放到百度网盘上面，或者从别人网盘上找到各种资源，但是当你下载的时候你就发现百度云是以这种速度龟速下载。对，每秒几十 KB，小的文件还好，如果稍微大点的软件，就得先去玩一天，慢慢等着了。</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/1197115-c1afdabe8b4eb169.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image"></p>
 <a id="more"></a>
 <p>反正我已经懒得喷百度了，封了很多第三方下载工具，意思就是让你开 VIP，而我又不想开，因为并不常用百度云下载，索性就去网上搜罗一些工具，刚好发现了这样一款优秀的全速下载工具。多亏有我们的开源社区以及广大网友啊，又想到了新方式。这里我就分享这款优秀的下载工具，让你告别下载缓慢的烦恼。</p>
 <p>废话不多说，先上图，看效果。可以看到下载速度接近 3MB 每秒，这个速度是依赖你现有网络的，我的网络不太快，所以也是接近全速下载了。</p>
-<p><img src="https://ws1.sinaimg.cn/large/006tKfTcgy1frourjdm9wj31kw06zjsn.jpg" alt=""></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/1197115-f0b7be9885e5f4ec.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image"></p>
 <p>这个工具的名字是 proxyee-down，是在 GitHub 上发现的，工具的地址是 </p>
 <p> <a href="https://github.com/proxyee-down-org/proxyee-down" target="_blank" rel="noopener">https://github.com/proxyee-down-org/proxyee-down</a></p>
 <p>上面有安装教程，以及问题解答，一般看这个教程就能搞定了，如果还有问题，可以加他们的 qq 群，以上地址里面都有。</p>
 <p>考虑到这个步骤有一些坑，尤其是没有技术背景的看文档可能还是有点困难，我这里把我的步骤讲一下，希望能够尽可能帮助到大家少走弯路。PS：我的系统是 Mac OS，浏览器是 Chrome，不是这个系统和浏览器的仅做参考，可以去上面安装教程里面找到对应的其他系统安装方式。</p>
 <p>步骤：</p>
-<h4 id="1、下载这个工具"><a href="#1、下载这个工具" class="headerlink" title="1、下载这个工具"></a>1、下载这个工具</h4><p>地址：</p>
-<p> <a href="https://pan.baidu.com/s/1fgBnWJ0gl6ZkneGkVDIEfQ#list/path=%2F" target="_blank" rel="noopener">https://pan.baidu.com/s/1fgBnWJ0gl6ZkneGkVDIEfQ#list/path=%2F</a> </p>
-<p>提取码: d92x</p>
+<h4 id="1、下载这个工具"><a href="#1、下载这个工具" class="headerlink" title="1、下载这个工具"></a>1、下载这个工具</h4><p>地址：<br><a href="https://github.com/proxyee-down-org/proxyee-down/wiki/%E8%BD%AF%E4%BB%B6%E4%B8%8B%E8%BD%BD%E4%B8%8E%E8%BF%90%E8%A1%8C" target="_blank" rel="noopener">https://github.com/proxyee-down-org/proxyee-down/wiki/%E8%BD%AF%E4%BB%B6%E4%B8%8B%E8%BD%BD%E4%B8%8E%E8%BF%90%E8%A1%8C</a></p>
 <p>里面有对应的版本，不同的操作系统下载对应的就好了，<code>proxyee-down-x.xx-mac.zip</code>, 现在最新的是 2.54，比如我下载的是 <code>proxyee-down-2.54-mac.zip</code></p>
 <h4 id="2、解压并运行"><a href="#2、解压并运行" class="headerlink" title="2、解压并运行"></a>2、解压并运行</h4><p>讲刚才下载好的 <code>proxyee-down-2.54-mac.zip</code> 解压到任意目录，双击 start 运行软件，由于安装证书和切换代理需要 root 权限，所以在运行软件会提示输入用户密码，输入完按回车确认即可。</p>
-<p><img src="https://ws3.sinaimg.cn/large/006tKfTcgy1froz2om7zoj315a0nggqz.jpg" alt=""></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/1197115-790a6137b36e37c2.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image"></p>
 <p>启动成功之后会弹出成功提示，同时启动了这个工具。</p>
-<p><img src="https://ws3.sinaimg.cn/large/006tKfTcgy1froz77mwbcj31kc0l4jtu.jpg" alt=""></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/1197115-20d930f5bfd29116.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image"></p>
 <p>同时电脑上会有如下的这个工具图标，点开证书目录，其实就是刚才目录里面的 <code>proxyee-down-2.54/main/ssl/ca.crt</code> </p>
-<p><img src="https://ws1.sinaimg.cn/large/006tKfTcgy1froz9y6hdrj309y09qgmf.jpg" alt=""></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/1197115-687ee19857d82190.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image"></p>
 <p>双击安装证书，添加可信任。</p>
-<p><img src="https://ws4.sinaimg.cn/large/006tKfTcgy1frozf3k2rfj30si0b43zg.jpg" alt=""></p>
-<h4 id="3、打开你想下载的百度网盘链接"><a href="#3、打开你想下载的百度网盘链接" class="headerlink" title="3、打开你想下载的百度网盘链接"></a>3、打开你想下载的百度网盘链接</h4><p>你会发现多出来一个 proxyee-down，如果没有出现，检查以上步骤是不是有问题，最后还是不出现，去该工具地址看常见问题列表  <code>https://github.com/proxyee-down-org/proxyee-down/blob/master/.guide/FAQ.md</code>，看是否你那边需要装浏览器插件，如果装了还是有问题，可以去 qq 群问问题，或者留言给我。</p>
-<p><img src="https://ws2.sinaimg.cn/large/006tKfTcgy1frp14btchaj315k0fcq5k.jpg" alt=""></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/1197115-fdf499e1938b50a3.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image"></p>
+<h4 id="3、打开你想下载的百度网盘链接"><a href="#3、打开你想下载的百度网盘链接" class="headerlink" title="3、打开你想下载的百度网盘链接"></a>3、打开你想下载的百度网盘链接</h4><p>你会发现多出来一个 proxyee-down，如果没有出现，检查以上步骤是不是有问题，最后还是不出现，去该工具地址看常见问题列表  ` <a href="https://github.com/proxyee-down-org/proxyee-down/issues" target="_blank" rel="noopener">https://github.com/proxyee-down-org/proxyee-down/issues</a> ，也可以去论坛里面看看，<a href="https://community.pdown.org/" target="_blank" rel="noopener">https://community.pdown.org/</a> ，可以去 qq 群问问题，或者留言给我。</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/1197115-91bcc07ec18ac48e.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image"></p>
 <h4 id="4、选中你要下载的文件，点下载按钮"><a href="#4、选中你要下载的文件，点下载按钮" class="headerlink" title="4、选中你要下载的文件，点下载按钮"></a>4、选中你要下载的文件，点下载按钮</h4><p>点了下载按钮之后就会跳转到这个工具，会有个弹出框，如下图，选择你的下载路径，点击创建，就开始下载啦。</p>
-<p><img src="https://ws3.sinaimg.cn/large/006tKfTcgy1frozyocp8fj30yu0w8dj0.jpg" alt=""></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/1197115-571d5a9f52e5b715.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image"></p>
 <p>这样你就告别百度云的龟速下载了。</p>
 <p>写在后面：如果觉得这个工具不错，希望可以给作者赞赏支持一下，毕竟是别人的付出，虽然是开源的，也希望我们能够支持一下，这样能够增加别人继续把这个事情做下去、做好的信念，如果像我一样比较穷的，至少可以点个 star，这样就能让更多人的人关注这个项目。当然，百度常年为我们提供免费的网盘服务，也是需要支持的，感觉价钱还可以的话，或者嫌教程麻烦的话，还是买VIP就好了。</p>
-<p>如果觉得内容还不错，可以关注一下我哦<br>微信公众号：志哥 （ID: zhige-me）<br>期待与你相遇，一同成长前行！</p>
 ]]></content>
       
         <categories>
