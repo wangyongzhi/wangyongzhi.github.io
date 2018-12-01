@@ -6,7 +6,7 @@
     <entry>
       <title><![CDATA[【high-speed-downloader】百度网盘不限速下载 支持 Windows 和 Mac]]></title>
       <url>http://zhige.me/2018/12/01/2018/12/high-speed-downloader/</url>
-      <content type="html"><![CDATA[<p>之前已经推荐过几个工具：</p>
+      <content type="html"><![CDATA[<p>之前已经推荐过几个百度网盘加速工具：</p>
 <p>【proxyee-down】支持 Mac 和 Windows，<br>【BaiduNetdiskPlugin-macOS】仅支持 Mac，<br>【pandownload】仅支持 Windows 。</p>
 <p>参见：</p>
 <p><a href="https://blog.csdn.net/zhige_me/article/details/80465191" target="_blank" rel="noopener">如何把百度网盘下载速度提高 100 倍，我推荐这个下载工具</a> </p>
@@ -2515,7 +2515,6 @@
 <p>这时候再去打开你的文件，看看是不是可以打开了。</p>
 <p>如果不显示「任何来源」选项（macOS 10.12以上版本默认为不显示）在控制台中执行：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo spctl --master-enable</span><br></pre></td></tr></table></figure>
-<p>如果觉得内容还不错，可以关注一下我哦<br>微信公众号：志哥 （ID: zhige-me）<br>期待与你相遇，一同成长前行！</p>
 ]]></content>
       
         <categories>
