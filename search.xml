@@ -4,6 +4,51 @@
   
     
     <entry>
+      <title><![CDATA[【破解 SVIP】提升百度网盘下载速度的另一种方法]]></title>
+      <url>http://zhige.me/2018/12/01/2018/12/%E3%80%90%E7%A0%B4%E8%A7%A3%20SVIP%E3%80%91%E6%8F%90%E5%8D%87%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E4%B8%8B%E8%BD%BD%E9%80%9F%E5%BA%A6%E7%9A%84%E5%8F%A6%E4%B8%80%E7%A7%8D%E6%96%B9%E6%B3%95/</url>
+      <content type="html"><![CDATA[<p>之前写过一篇 <a href="https://mp.weixin.qq.com/s?__biz=MzI1Njc0Nzg2Ng==&amp;mid=2247483806&amp;idx=1&amp;sn=8bc9df88dc71ba4be52778f2885ccd1f&amp;chksm=ea20b1abdd5738bd8193ce1ce903423ed0f9c2325e143fe6bc7eb7c5ec7284ae3748351c4db7&amp;token=1146176983&amp;lang=zh_CN#rd" target="_blank" rel="noopener">如何把百度网盘下载速度提高 100 倍，我推荐这个下载工具</a> ，</p>
+<p>用到的工具是  <a href="https://github.com/proxyee-down-org/proxyee-down" target="_blank" rel="noopener">proxyee-down</a> ，地址是 <a href="https://github.com/proxyee-down-org/proxyee-down" target="_blank" rel="noopener">https://github.com/proxyee-down-org/proxyee-down</a> ，</p>
+<p>不过有时候它会被限制，百度应该做了封杀，这两天我也不能用了，就去找了下还有没有其他的方式，然后就发现了另一位大神的工具，地址如下：</p>
+<a id="more"></a>
+<p><a href="https://github.com/CodeTips/BaiduNetdiskPlugin-macOS" target="_blank" rel="noopener">https://github.com/CodeTips/BaiduNetdiskPlugin-macOS</a></p>
+<p>这个是用破解百度云盘 VIP 的方式，提供的是插件，不过只支持 Mac OS。</p>
+<p>看一下效果。</p>
+<p>关键点：左上角的 SVIP 的标志、下载速度、试用超级会员剩余时间 8 秒。</p>
+<p><img src="https://ws2.sinaimg.cn/large/006tNbRwly1fxr6dtnaahj31b608m76b.jpg" alt=""></p>
+<p>具体方式，上面 GitHub 链接里面已经写的很清楚了，其实是通过试用超级会员的方式，并且把过期时间设置的非常久，也就是剩余时间永远定格在 8 秒。</p>
+<p>简单说，<strong>基本步骤</strong>就是：</p>
+<p>按照地址中的步骤安装插件，安装完毕之后，重启百度网盘。</p>
+<p><strong>优点</strong>：</p>
+<p>速度很快。</p>
+<p><strong>缺点</strong>：</p>
+<p>1、只支持 Mac OS。</p>
+<p>2、必须安装百度网盘。</p>
+<p>3、速度不稳定，如果发现不稳定了，速度降为百度初始的几十 kb/s，就要重新启动百度网盘，重新点击试用超级会员。</p>
+<p>4、下载过程中，点了暂停，再点开始，就不生效了，只能重启。</p>
+<p><strong>注意事项</strong>：</p>
+<p>1、插件安装完成之后，启动百度网盘需要输入电脑密码，作者有说明。</p>
+<p>2、频繁使用，账号可能会被限制，作者也有说明。不过他也说了，这是他猜的，他一直可以用，我用了很多次，也是没有问题。</p>
+<p>转载请务必注明原创地址为：</p>
+<p>往期干货：<br><a href="https://mp.weixin.qq.com/s?__biz=MzI1Njc0Nzg2Ng==&amp;mid=2247483806&amp;idx=1&amp;sn=8bc9df88dc71ba4be52778f2885ccd1f&amp;chksm=ea20b1abdd5738bd8193ce1ce903423ed0f9c2325e143fe6bc7eb7c5ec7284ae3748351c4db7&amp;token=1146176983&amp;lang=zh_CN#rd" target="_blank" rel="noopener">如何把百度网盘下载速度提高 100 倍，我推荐这个下载工具</a><br><a href="https://mp.weixin.qq.com/s?__biz=MzI1Njc0Nzg2Ng==&amp;mid=2247484167&amp;idx=1&amp;sn=ef12ec11d06228e13e4348cd256d3b27&amp;chksm=ea20b332dd573a24d97b8f44ff355af9c777d5dcd23873e9b267079aeaeef41572b802c36786&amp;token=1146176983&amp;lang=zh_CN#rd" target="_blank" rel="noopener">Picsew | 推荐一款长截图和长图拼接工具</a><br><a href="https://mp.weixin.qq.com/s?__biz=MzI1Njc0Nzg2Ng==&amp;mid=2247484120&amp;idx=1&amp;sn=a3074c153ccffa7c012c6ee5a2de3056&amp;chksm=ea20b2eddd573bfb615d57581536ceea94ad8c9b528c9ed03b98c62cf6d695815d5825c76ac1&amp;token=1524062602&amp;lang=zh_CN#rd" target="_blank" rel="noopener">滴答清单 | 记性差的人不能错过的任务管理神器</a><br><a href="https://mp.weixin.qq.com/s?__biz=MzI1Njc0Nzg2Ng==&amp;mid=2247484056&amp;idx=1&amp;sn=a0ec337582765252f98237712c71668f&amp;chksm=ea20b2addd573bbba4185c1940180e7b2247c6de7a782ff1831780db78aff0b5de814cc93484&amp;token=1327818270&amp;lang=zh_CN#rd" target="_blank" rel="noopener">别告诉我你会笔记，告诉你两个实用技巧</a><br><a href="https://mp.weixin.qq.com/s?__biz=MzI1Njc0Nzg2Ng==&amp;mid=2247484025&amp;idx=1&amp;sn=eda51bf2b383fff3ffcb091c3e286b1b&amp;chksm=ea20b24cdd573b5ae79c88c424c4f24f92aa9afeacd08a1ecde836d72f4f3314662e6e024444&amp;token=1977469400&amp;lang=zh_CN&amp;scene=21#wechat_redirect" target="_blank" rel="noopener">学会这几个搜索技巧，你的效率将提高 10 倍</a><br><a href="https://mp.weixin.qq.com/s?__biz=MzI1Njc0Nzg2Ng==&amp;mid=2247484078&amp;idx=1&amp;sn=171c28a9a3f81aa596ebc7d2c54a41cf&amp;chksm=ea20b29bdd573b8d7a3fcb45fd21944432cd1bbf0ff257b11f81edf3117849214c37cbc6609f&amp;token=1327818270&amp;lang=zh_CN#rd" target="_blank" rel="noopener">白描 | 有了这款扫描软件，从此摘抄更加方便</a><br><a href="https://mp.weixin.qq.com/s?__biz=MzI1Njc0Nzg2Ng==&amp;mid=2247483985&amp;idx=1&amp;sn=a5b5bebc1451586f1a3a8f06cd0f81e6&amp;chksm=ea20b264dd573b72fef1157b959258b17d8dd560ec8e43cd5b77b225c514f1a8c6f99825c904&amp;token=1977469400&amp;lang=zh_CN&amp;scene=21#wechat_redirect" target="_blank" rel="noopener">跟着 Apple 中国学习顶级中文文案排版</a><br><a href="https://mp.weixin.qq.com/s?__biz=MzI1Njc0Nzg2Ng==&amp;mid=2247483976&amp;idx=1&amp;sn=8749853dd42ef3e1f0f1d1026001ed1f&amp;chksm=ea20b27ddd573b6b0fa42437b198c12027733cac022018a41c0ba2d9d940a190434f4da0ecc9&amp;token=1977469400&amp;lang=zh_CN&amp;scene=21#wechat_redirect" target="_blank" rel="noopener">推荐一个免费阅读神器</a><br><a href="https://mp.weixin.qq.com/s?__biz=MzI1Njc0Nzg2Ng==&amp;mid=2247483949&amp;idx=1&amp;sn=3a23ba716efe28f3afa60df286f429ef&amp;chksm=ea20b218dd573b0eea3316c9f7c33f2dd906a6a8d9c95429f45a4fe12f4401d8036aa92038de&amp;token=1977469400&amp;lang=zh_CN&amp;scene=21#wechat_redirect" target="_blank" rel="noopener">推荐 9 个免费图片网站，我的存货都在这了</a><br><a href="https://mp.weixin.qq.com/s?__biz=MzI1Njc0Nzg2Ng==&amp;mid=2247483944&amp;idx=1&amp;sn=bae6090ea30053f153d654560d6fd3b7&amp;chksm=ea20b21ddd573b0b005dd85158bef274d8f532cedfc34cd3f02f2fdf262152be4e0ed569db0b&amp;token=1977469400&amp;lang=zh_CN&amp;scene=21#wechat_redirect" target="_blank" rel="noopener">推荐几款公众号写作必备工具</a><br><a href="https://mp.weixin.qq.com/s?__biz=MzI1Njc0Nzg2Ng==&amp;mid=2247483821&amp;idx=1&amp;sn=8fd8a21ef104cc189036639437b2d128&amp;chksm=ea20b198dd57388e9097d81a11f4453939c59bf5473ab270aac130afa12f44b8196a6dabb06f&amp;token=1977469400&amp;lang=zh_CN&amp;scene=21#wechat_redirect" target="_blank" rel="noopener">如何让豆瓣和 IMDb 互相显示评分</a></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/1197115-7e3bc61b4ca02d6f.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 工具 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 工具 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[你之所以进步慢，是因为你不敢扔掉你的救生圈]]></title>
       <url>http://zhige.me/2018/11/21/2018/11/%E4%BD%A0%E4%B9%8B%E6%89%80%E4%BB%A5%E8%BF%9B%E6%AD%A5%E6%85%A2%EF%BC%8C%E6%98%AF%E5%9B%A0%E4%B8%BA%E4%BD%A0%E4%B8%8D%E6%95%A2%E6%89%94%E6%8E%89%E4%BD%A0%E7%9A%84%E6%95%91%E7%94%9F%E5%9C%88/</url>
       <content type="html"><![CDATA[<p>胡立阳是全球最受欢迎的华人投资理财专家，他有个称号——「亚洲股市教父」。</p>
