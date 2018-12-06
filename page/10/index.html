@@ -484,9 +484,15 @@
       
         
           
-            <figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> ss [<span class="number">5</span>]<span class="keyword">struct</span>&#123;&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//第一种情况，很正常，输出0，1，2，3，4</span></span><br><span class="line"><span class="keyword">for</span> i := <span class="keyword">range</span> ss &#123;</span><br><span class="line">	fmt.Println(i)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//第二种情况，典型的Go语言闭包，它捕获了变量i，但是要注意的是它持有的是引用不是拷贝，当for循环结束时，i=4</span></span><br><span class="line"><span class="comment">//所以闭包输出的结果都是4</span></span><br><span class="line"><span class="keyword">for</span> i := <span class="keyword">range</span> ss &#123;</span><br><span class="line">	<span class="keyword">defer</span> <span class="function"><span class="keyword">func</span><span class="params">()</span></span> &#123;</span><br><span class="line">		fmt.Println(i)</span><br><span class="line">	&#125;()</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//第三种情况，这种情况下的闭包，它并没有捕获变量i，而是通过传参的方式，这种情况下它得到的是拷贝</span></span><br><span class="line"><span class="comment">//所以其结果是4，3，2，1，0</span></span><br><span class="line"><span class="keyword">for</span> i := <span class="keyword">range</span> ss &#123;</span><br><span class="line">	<span class="keyword">defer</span> <span class="function"><span class="keyword">func</span><span class="params">(i <span class="keyword">int</span>)</span></span> &#123;</span><br><span class="line">		fmt.Println(i)</span><br><span class="line">	&#125;(i)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-          
+          12345678910111213141516171819202122var ss [5]struct&#123;&#125;//第一种情况，很正常，输出0，1，2，3，4for i := range ss &#123;	fmt.Println(i)&#125;//第二种情况，典型的Go语言闭包，它
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/11/29/2016/201611/goForRange-闭包/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -1756,9 +1762,16 @@
       
         
           
-            <p>你说怕说出喜欢后连朋友都没得做<br>我喜欢你<br>为什么要苟且做朋友</p>
+          你说怕说出喜欢后连朋友都没得做我喜欢你为什么要苟且做朋友
 
           
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/10/31/2016/201610/三行情诗/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
