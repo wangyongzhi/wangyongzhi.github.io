@@ -4,7 +4,7 @@
   
     
     <entry>
-      <title><![CDATA[sourcetree password required]]></title>
+      <title><![CDATA[Sourcetree password required]]></title>
       <url>http://zhige.me/2019/01/28/2019/01/sourcetree_password_required/</url>
       <content type="html"><![CDATA[<p>sourcetree 不停的让输入密码，报 password required</p>
 <p>1、在终端（terminal）打开你的工程目录</p>
@@ -18,14 +18,14 @@
       
         <categories>
             
-            <category> git </category>
+            <category> Sourcetree </category>
             
         </categories>
         
         
         <tags>
             
-            <tag> git </tag>
+            <tag> Sourcetree </tag>
             
         </tags>
         
