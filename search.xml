@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title><![CDATA[idea maven工程显示灰色(不亮)]]></title>
+      <url>http://zhige.me/2019/02/28/2019/02/idea_maven_ignore_files/</url>
+      <content type="html"><![CDATA[<p>用 idea 开发的同学，有可能会遇到下面这个问题，工程下面所有模块或者部分模块显示灰色，造成这个问题的原因是忽略了 maven 模块，只需要将忽略的文件 ignored files 进行恢复就可以解决这个问题。</p>
+<p><img src="https://ws1.sinaimg.cn/large/006tKfTcly1g0mc1y18alj30d00bgmyb.jpg" alt=""></p>
+<p>解决方法：</p>
+<p>1、打开 preferences -&gt; maven -&gt; ignored files</p>
+<p>2、把相应的勾去掉就可以了</p>
+<p><img src="https://ws1.sinaimg.cn/large/006tKfTcly1g0mc8i2tonj30s80oqn36.jpg" alt=""></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/1197115-37a35ac4a30c0c7a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+]]></content>
+      
+        <categories>
+            
+            <category> idea </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> idea </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[抱怨的本质是什么？]]></title>
       <url>http://zhige.me/2019/02/12/2019/02/%E6%8A%B1%E6%80%A8%E7%9A%84%E6%9C%AC%E8%B4%A8/</url>
       <content type="html"><![CDATA[<p>抱怨有用吗？没用，但很多人还是忍不住抱怨。</p>
@@ -1846,44 +1873,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[推荐几款公众号写作必备工具]]></title>
-      <url>http://zhige.me/2018/07/30/2018/07/%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%85%AC%E4%BC%97%E5%8F%B7%E5%86%99%E4%BD%9C%E5%BF%85%E5%A4%87%E5%B7%A5%E5%85%B7/</url>
-      <content type="html"><![CDATA[<p>有很多小伙伴说我公众号排版不错，我喜欢简洁清爽的风格，不喜欢花里胡哨。</p>
-<p>这里介绍一下我用的排版工具，当然还有其他几个我写作用到的工具也一并介绍了。可以说，我写文章用到的东西除了脑子和手都在这了。</p>
-<a id="more"></a>
-<h4 id="1、Typora-——-Markdown-编辑器"><a href="#1、Typora-——-Markdown-编辑器" class="headerlink" title="1、Typora —— Markdown 编辑器"></a>1、Typora —— Markdown 编辑器</h4><p>简洁好用，功能强大，用了几款比较之后，选择了这个，然后就一直没变过。</p>
-<p>地址： <a href="https://www.typora.io/" target="_blank" rel="noopener">https://www.typora.io/</a></p>
-<h4 id="2、iPic-——-图床工具"><a href="#2、iPic-——-图床工具" class="headerlink" title="2、iPic —— 图床工具"></a>2、iPic —— 图床工具</h4><p>图床神器，Markdown 写作必备。</p>
-<p>支持拖拽上传、复制图片直接上传，在菜单栏可以点击切换普通链接、Markdown 格式链接，非常方便。</p>
-<p>可以去这里了解详情  <a href="https://toolinbox.net/iPic/" target="_blank" rel="noopener">https://toolinbox.net/iPic/</a></p>
-<p>不过不支持 Windows，Windows 用户可以自己查查有没有类似的，或者看到本篇的小伙伴在留言区推荐一下。</p>
-<h4 id="3、排版工具"><a href="#3、排版工具" class="headerlink" title="3、排版工具"></a>3、排版工具</h4><p>市面上的排版工具很多，下面推荐的这两款是免费又好用的排版工具，并且支持代码排版，程序员的福音，当然不写代码的人用着也很爽。只需要把自己写的 Markdown 格式复制进来，然后就排版好了。</p>
-<p>第一个只支持选择已经给定的格式，基本满足大部分人的需求，如果对排版不是有洁癖的话，只用这个就能超越大部分人的排版。</p>
-<p>地址： <a href="http://md.barretlee.com/" target="_blank" rel="noopener">http://md.barretlee.com/</a></p>
-<p>第二个是可以支持自定义 CSS ，修改成自己想要的格式，当然也有默认的选项，跟上面那个一样。我最常用的是这个。</p>
-<p>地址： <a href="http://md.aclickall.com/" target="_blank" rel="noopener">http://md.aclickall.com/</a></p>
-<h4 id="4、思维导图工具-——-MindNode"><a href="#4、思维导图工具-——-MindNode" class="headerlink" title="4、思维导图工具 —— MindNode"></a>4、思维导图工具 —— MindNode</h4><p>其实上面三个就能覆盖大部分的写作了，不过有时候还可能会用到思维导图。<br>图文并茂，方便记忆和学习。并且分享的文章，别人先看看图，也大概了解了主要内容，节省读者时间。</p>
-<p>地址： <a href="https://mindnode.com/" target="_blank" rel="noopener">https://mindnode.com/</a></p>
-<p>这个好像要破解，Mac 版的我有，破解版不方便公开分享，并且链接容易失效，如果需要，可以私聊我。</p>
-<p>相关文章：<br><a href="https://www.jianshu.com/p/68fca8b75849" target="_blank" rel="noopener">如何把百度网盘下载速度提高 100 倍，我推荐这个下载工具</a></p>
-]]></content>
-      
-        <categories>
-            
-            <category> 说说 </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> 说说 </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[如何成为一个有思想的人]]></title>
       <url>http://zhige.me/2018/07/30/2018/08/%E5%A6%82%E4%BD%95%E6%88%90%E4%B8%BA%E4%B8%80%E4%B8%AA%E6%9C%89%E6%80%9D%E6%83%B3%E7%9A%84%E4%BA%BA/</url>
       <content type="html"><![CDATA[<p><img src="https://ws1.sinaimg.cn/large/006tNc79gy1ftz5aaogtwj31g80ytaiu.jpg" alt=""></p>
@@ -1909,6 +1898,44 @@
 <p>参考：<br>阮一峰《如何变得有思想》</p>
 <p>精选文章：<br><a href="https://mp.weixin.qq.com/s?__biz=MzI1Njc0Nzg2Ng==&amp;mid=2247483806&amp;idx=1&amp;sn=8bc9df88dc71ba4be52778f2885ccd1f&amp;chksm=ea20b1abdd5738bd8193ce1ce903423ed0f9c2325e143fe6bc7eb7c5ec7284ae3748351c4db7#rd" target="_blank" rel="noopener">如何把百度网盘下载速度提高 100 倍，我推荐这个下载工具</a><br><a href="https://mp.weixin.qq.com/s?__biz=MzI1Njc0Nzg2Ng==&amp;mid=2247483944&amp;idx=1&amp;sn=bae6090ea30053f153d654560d6fd3b7&amp;chksm=ea20b21ddd573b0b005dd85158bef274d8f532cedfc34cd3f02f2fdf262152be4e0ed569db0b#rd" target="_blank" rel="noopener">推荐几款公众号写作必备工具</a><br><a href="https://mp.weixin.qq.com/s?__biz=MzI1Njc0Nzg2Ng==&amp;mid=2247483949&amp;idx=1&amp;sn=3a23ba716efe28f3afa60df286f429ef&amp;chksm=ea20b218dd573b0eea3316c9f7c33f2dd906a6a8d9c95429f45a4fe12f4401d8036aa92038de#rd" target="_blank" rel="noopener">推荐 9 个免费图片网站，我的存货都在这了</a></p>
 <p><img src="http://upload-images.jianshu.io/upload_images/1197115-63dd0b52fb304134.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 说说 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 说说 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[推荐几款公众号写作必备工具]]></title>
+      <url>http://zhige.me/2018/07/30/2018/07/%E6%8E%A8%E8%8D%90%E5%87%A0%E6%AC%BE%E5%85%AC%E4%BC%97%E5%8F%B7%E5%86%99%E4%BD%9C%E5%BF%85%E5%A4%87%E5%B7%A5%E5%85%B7/</url>
+      <content type="html"><![CDATA[<p>有很多小伙伴说我公众号排版不错，我喜欢简洁清爽的风格，不喜欢花里胡哨。</p>
+<p>这里介绍一下我用的排版工具，当然还有其他几个我写作用到的工具也一并介绍了。可以说，我写文章用到的东西除了脑子和手都在这了。</p>
+<a id="more"></a>
+<h4 id="1、Typora-——-Markdown-编辑器"><a href="#1、Typora-——-Markdown-编辑器" class="headerlink" title="1、Typora —— Markdown 编辑器"></a>1、Typora —— Markdown 编辑器</h4><p>简洁好用，功能强大，用了几款比较之后，选择了这个，然后就一直没变过。</p>
+<p>地址： <a href="https://www.typora.io/" target="_blank" rel="noopener">https://www.typora.io/</a></p>
+<h4 id="2、iPic-——-图床工具"><a href="#2、iPic-——-图床工具" class="headerlink" title="2、iPic —— 图床工具"></a>2、iPic —— 图床工具</h4><p>图床神器，Markdown 写作必备。</p>
+<p>支持拖拽上传、复制图片直接上传，在菜单栏可以点击切换普通链接、Markdown 格式链接，非常方便。</p>
+<p>可以去这里了解详情  <a href="https://toolinbox.net/iPic/" target="_blank" rel="noopener">https://toolinbox.net/iPic/</a></p>
+<p>不过不支持 Windows，Windows 用户可以自己查查有没有类似的，或者看到本篇的小伙伴在留言区推荐一下。</p>
+<h4 id="3、排版工具"><a href="#3、排版工具" class="headerlink" title="3、排版工具"></a>3、排版工具</h4><p>市面上的排版工具很多，下面推荐的这两款是免费又好用的排版工具，并且支持代码排版，程序员的福音，当然不写代码的人用着也很爽。只需要把自己写的 Markdown 格式复制进来，然后就排版好了。</p>
+<p>第一个只支持选择已经给定的格式，基本满足大部分人的需求，如果对排版不是有洁癖的话，只用这个就能超越大部分人的排版。</p>
+<p>地址： <a href="http://md.barretlee.com/" target="_blank" rel="noopener">http://md.barretlee.com/</a></p>
+<p>第二个是可以支持自定义 CSS ，修改成自己想要的格式，当然也有默认的选项，跟上面那个一样。我最常用的是这个。</p>
+<p>地址： <a href="http://md.aclickall.com/" target="_blank" rel="noopener">http://md.aclickall.com/</a></p>
+<h4 id="4、思维导图工具-——-MindNode"><a href="#4、思维导图工具-——-MindNode" class="headerlink" title="4、思维导图工具 —— MindNode"></a>4、思维导图工具 —— MindNode</h4><p>其实上面三个就能覆盖大部分的写作了，不过有时候还可能会用到思维导图。<br>图文并茂，方便记忆和学习。并且分享的文章，别人先看看图，也大概了解了主要内容，节省读者时间。</p>
+<p>地址： <a href="https://mindnode.com/" target="_blank" rel="noopener">https://mindnode.com/</a></p>
+<p>这个好像要破解，Mac 版的我有，破解版不方便公开分享，并且链接容易失效，如果需要，可以私聊我。</p>
+<p>相关文章：<br><a href="https://www.jianshu.com/p/68fca8b75849" target="_blank" rel="noopener">如何把百度网盘下载速度提高 100 倍，我推荐这个下载工具</a></p>
 ]]></content>
       
         <categories>
