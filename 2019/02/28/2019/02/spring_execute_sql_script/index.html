@@ -142,25 +142,25 @@
 
 
 
-  <meta name="description" content="让我惊讶而又感到非同寻常的是，在我的众多著作中，恰恰是这本我原来打算匿名的书出乎意料地给我带来了极大的成功。因此，我再三叮嘱我在欧洲和美国的学生：不要只想着成功——你越想成功，就越容易失败。成功就像幸福一样，可遇而不可求。它是一种自然而然的产物，是一个人无意识地投身于某一伟大的事业时产生的衍生品，或者是为他人奉献时的副产品。幸福总会降临的，成功也同样：常常是无心插柳柳成荫。我希望你们的一切行为服从">
-<meta name="keywords" content="读书笔记">
+  <meta name="description" content="本篇解决 Spring 执行SQL脚本(文件)的问题。 场景描述可以不看。 场景描述： 我在运行单测的时候，也就是 Spring 工程启动的时候，Spring 会去执行 classpath:schema.sql（后面会解释），我想利用这一点，解决一个问题： 一次运行多个测试文件，每个文件先后独立运行，而上一个文件创建的数据，会对下一个文件运行时造成影响，所以我要在每个文件执行完成之后，重置数据库，">
+<meta name="keywords" content="Spring">
 <meta property="og:type" content="article">
-<meta property="og:title" content="《活出生命的意义》摘录">
-<meta property="og:url" content="http://zhige.me/2018/07/24/2018/07/《活出生命的意义》摘录/index.html">
+<meta property="og:title" content="Spring 执行 sql 脚本（文件）">
+<meta property="og:url" content="http://zhige.me/2019/02/28/2019/02/spring_execute_sql_script/index.html">
 <meta property="og:site_name" content="志哥">
-<meta property="og:description" content="让我惊讶而又感到非同寻常的是，在我的众多著作中，恰恰是这本我原来打算匿名的书出乎意料地给我带来了极大的成功。因此，我再三叮嘱我在欧洲和美国的学生：不要只想着成功——你越想成功，就越容易失败。成功就像幸福一样，可遇而不可求。它是一种自然而然的产物，是一个人无意识地投身于某一伟大的事业时产生的衍生品，或者是为他人奉献时的副产品。幸福总会降临的，成功也同样：常常是无心插柳柳成荫。我希望你们的一切行为服从">
+<meta property="og:description" content="本篇解决 Spring 执行SQL脚本(文件)的问题。 场景描述可以不看。 场景描述： 我在运行单测的时候，也就是 Spring 工程启动的时候，Spring 会去执行 classpath:schema.sql（后面会解释），我想利用这一点，解决一个问题： 一次运行多个测试文件，每个文件先后独立运行，而上一个文件创建的数据，会对下一个文件运行时造成影响，所以我要在每个文件执行完成之后，重置数据库，">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-08-05T10:29:48.297Z">
+<meta property="og:updated_time" content="2019-02-28T11:45:26.840Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="《活出生命的意义》摘录">
-<meta name="twitter:description" content="让我惊讶而又感到非同寻常的是，在我的众多著作中，恰恰是这本我原来打算匿名的书出乎意料地给我带来了极大的成功。因此，我再三叮嘱我在欧洲和美国的学生：不要只想着成功——你越想成功，就越容易失败。成功就像幸福一样，可遇而不可求。它是一种自然而然的产物，是一个人无意识地投身于某一伟大的事业时产生的衍生品，或者是为他人奉献时的副产品。幸福总会降临的，成功也同样：常常是无心插柳柳成荫。我希望你们的一切行为服从">
+<meta name="twitter:title" content="Spring 执行 sql 脚本（文件）">
+<meta name="twitter:description" content="本篇解决 Spring 执行SQL脚本(文件)的问题。 场景描述可以不看。 场景描述： 我在运行单测的时候，也就是 Spring 工程启动的时候，Spring 会去执行 classpath:schema.sql（后面会解释），我想利用这一点，解决一个问题： 一次运行多个测试文件，每个文件先后独立运行，而上一个文件创建的数据，会对下一个文件运行时造成影响，所以我要在每个文件执行完成之后，重置数据库，">
 
 
 
 
 
 
-  <link rel="canonical" href="http://zhige.me/2018/07/24/2018/07/《活出生命的意义》摘录/"/>
+  <link rel="canonical" href="http://zhige.me/2019/02/28/2019/02/spring_execute_sql_script/"/>
 
 
 
@@ -170,7 +170,7 @@
   };
 </script>
 
-  <title>《活出生命的意义》摘录 | 志哥</title>
+  <title>Spring 执行 sql 脚本（文件） | 志哥</title>
   
 
 
@@ -370,7 +370,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://zhige.me/2018/07/24/2018/07/《活出生命的意义》摘录/">
+    <link itemprop="mainEntityOfPage" href="http://zhige.me/2019/02/28/2019/02/spring_execute_sql_script/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="志哥">
@@ -387,7 +387,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">《活出生命的意义》摘录
+          <h1 class="post-title" itemprop="name headline">Spring 执行 sql 脚本（文件）
               
             
           </h1>
@@ -412,24 +412,12 @@
                 
               
 
-              <time title="创建时间：2018-07-24 18:00:00" itemprop="dateCreated datePublished" datetime="2018-07-24T18:00:00+08:00">2018-07-24</time>
+              <time title="创建时间：2019-02-28 19:17:55 / 修改时间：19:45:26" itemprop="dateCreated datePublished" datetime="2019-02-28T19:17:55+08:00">2019-02-28</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-08-05 18:29:48" itemprop="dateModified" datetime="2018-08-05T18:29:48+08:00">2018-08-05</time>
               
             
           </span>
@@ -446,7 +434,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/读书笔记/" itemprop="url" rel="index"><span itemprop="name">读书笔记</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Spring/" itemprop="url" rel="index"><span itemprop="name">Spring</span></a></span>
 
                 
                 
@@ -460,7 +448,7 @@
 
           
           
-             <span id="/2018/07/24/2018/07/《活出生命的意义》摘录/" class="leancloud_visitors" data-flag-title="《活出生命的意义》摘录">
+             <span id="/2019/02/28/2019/02/spring_execute_sql_script/" class="leancloud_visitors" data-flag-title="Spring 执行 sql 脚本（文件）">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -491,30 +479,18 @@
       
 
       
-        <p>让我惊讶而又感到非同寻常的是，在我的众多著作中，恰恰是这本我原来打算匿名的书出乎意料地给我带来了极大的成功。因此，我再三叮嘱我在欧洲和美国的学生：<br>不要只想着成功——你越想成功，就越容易失败。成功就像幸福一样，可遇而不可求。它是一种自然而然的产物，是一个人无意识地投身于某一伟大的事业时产生的衍生品，或者是为他人奉献时的副产品。幸福总会降临的，成功也同样：常常是无心插柳柳成荫。我希望你们的一切行为服从良心，并用知识去实现它。总有一天你会发现，当然是相当长的时间之后——注意，我说的是很长一段时间后！——正是由于这种不关注，成功将降临于你。</p>
-<a id="more"></a>
-<p>忽然间，我一生中第一次领悟到一个真理，它曾被诗人赞颂，被思想家视为绝顶智慧。这就是：爱是人类终身追求的最高目标。我理解了诗歌、思想和信仰所传达的伟大秘密的真正含义：拯救人类要通过爱与被爱。我知道世界上一无所有的人只要有片刻的时间思念爱人，那么他就可以领悟幸福的真谛。在荒凉的环境中，人们不能畅所欲言，唯一正确的做法就是忍受痛苦，以一种令人尊敬的方式去忍受，在这种处境中的人们也可以通过回忆爱人的形象获得满足。我生平第一次理解这句话“天使存在于无比美丽的永恒思念中”</p>
-<p>我的意识还停留在对妻子的思念上，一个想法突然闪现在我脑海中：不知妻子是否还活着。于是，我终于明白了一件事，如今我对这件事理解得更加深刻，那就是爱一个人可以远远超过爱她的肉体本身。爱在精神和内心方面具有深刻的含义，无论伴侣是否在场，是否健在，爱以什么方式终止是很重要的。</p>
-<p>回忆往事所产生的内心波澜有助于囚徒填补精神空虚、孤独和思想贫乏。思绪会插上想象的翅膀，回到过去发生的事情，尽管常常是回到一些不重要的琐事。恋恋不舍的回忆使他们无比幸福，他们假装自己是一个陌生人，生活在遥远的世界，渴望能够乘公共汽车旅游、打开自己公寓的大门、回电话甚至仅仅是打开灯。我的思绪常常集中在这些琐事上，回忆让人泪如雨下。</p>
-<p>培养幽默感并以一种幽默的态度看待事情，是人在掌握生存艺术时学到的技巧。尽管在集中营中苦难无处不在，但还是有可能运用生存的艺术。打个比方：一个人的苦难就好比毒气。如果向空荡荡的毒气室灌入一定量的毒气，气体将完全而均匀地弥漫开来，不管房间有多大。人的苦难也是这样，它完全占据了你的灵魂和意识，不管苦难是大还是小。因此，人苦难的“量”完全是相对的。</p>
-<p>不过，我不能苛求那些偏向自己人的犯人。在这种生命或迟或早随时可能终结的处境里，谁还能指责那些优待朋友的人呢？任何人都没有资格去评判别人，除非他扪心自问在这样的情况下自己不会那么做。</p>
-<p>进病号房的第四天，我刚被指定值夜班，主任医生就跑进来，问我是否愿意到另外一个集中营看护伤寒病人。朋友们都强烈反对我去（同行中也没有一个愿意去的），但我执意要去。我知道，在工作队干活会死得更快。怎么都是个死，在那里死多少会有些意义。我想，作为医生，为帮助自己的狱友而死，要比作为不中用的劳工消耗掉自己的生命，无疑更有意义。</p>
-<p>在集中营生活的经验表明，人还是有可能选择自己的行为的。有足够的例证（常常是英雄性质的）说明，人可以克服冷漠，克制暴躁。即使是在可怕的心理和生理条件下，人也能够保持一定的精神自由和意识独立。</p>
-<p>有一样东西你是不能从人的手中夺去的，那就是最宝贵的自由，人们一直拥有在任何环境中选择自己的态度和行为方式的自由。</p>
-<p>积极的生活能够使人有机会通过创造性的工作实现价值，而消极的生活能够使人满足于对美、艺术或者自然的追求。</p>
-<p>看不到未来的人之所以自甘沉沦，是因为他发现自己老在回忆。我们曾经说过，犯人容易忆旧，为的是忘记眼前的痛苦。但剥去当下的现实性就会蕴涵着一个危险，那就是容易忽视积极度过集中营生活的机会，而的确存在这样的机会。将我们的“临时的存在”看做不真实的，本身就是使犯人丧失对生活的把握的重要因素，一切都成为无所谓的了。这种人忘了，正是在极端困苦的环境下，人才有实现精神升华的机会。他们不是把集中营的苦难看做对自身内在力量的考验，而是很不严肃地对待自己的生命，把生命轻易抛弃。他们更愿意闭上眼睛，生活在过去之中。对这些人来说，生命是无意义的。</p>
-<p>这种独特性使每个人的情况千差万别，因此让每个人意识到生命的意义，也就使他有可能完成其创造性的作品，享受到人类之爱。一旦他意识到自己是不可替代的，那他就会充分意识到自己的责任。认识到自己对所爱的人或者未竟的事业的责任，也就永远不会抛弃自己的生命。他知道自己存在是“为了什么”，也就知道“如何”继续活下去。</p>
-<p>一回，我跟一个朋友穿过农田正朝集中营方向走，突然到了一块长着绿油油庄稼的田地。我本能地想绕道走，但他拽着我的胳膊，径直从地里穿了过去。我嘀咕了几句，大概是说不该践踏青苗。他生气了，恼怒地瞪了我一眼，吼道：“你甭说啦！他们夺走了我们多少东西？我老婆和孩子都被毒死了，更别说其他了，你却不许我踩几根庄稼！”<br>这一类人慢慢地才能被引导回常识性的真理，即谁也没有权利为非作歹，哪怕别人曾经这样对待你。</p>
-<p>对于回家的犯人来说，最重要的体验是在他经受了那么多苦难之后，除了上帝，他不再畏惧任何东西，那种体验有着无与伦比的美妙感觉。</p>
-<p>对自己的未来丧失信心的犯人，注定要走向毁灭。由于他对未来失去了信念，他也就丧失了对精神的把握。他自甘堕落，成为行尸走肉。通常，这会很快发生，通常的表现是精神崩溃，凡经历过集中营生活的人对此都非常熟悉。</p>
-<p>我有一次亲身体会到丧失对未来的信念跟这种危险的放弃之间的密切联系。F——我的号长是一名小有名气的作曲家和词作家，有一天，他告诉我说：“我跟你说点事，医生。我做了个奇怪的梦，梦里有个声音说，我可以许个愿，问任何我想知道的事，我都会得到答案。你猜我问了什么？我问他战争什么时候结束？你明白我的意思，医生。我就想知道什么时候能够得到解放。”<br>“你什么时候做的这个梦？”我问他。<br>“1945年2月。”他说。当时是3月初。<br>“那个声音怎么回答你的？”<br>他诡秘地耳语道：“3月30日。”<br>当F告诉我这个梦时，他充满了希望，确信梦里那个声音所说的是正确的。但随着日子的临近，我们根据得到的消息判断，战争极不可能在那个日子结束。2月29日，F突然病了，发高烧。3月30日，就是梦中声音告诉他战争将结束的那一天，他陷入了昏迷。第二天，他死了。从所有外表的症状看，他是死于伤寒。</p>
-<p>按照意义疗法，我们可以用三种不同的方式来发现生命之意义：（1）通过创立某项工作或从事某种事业；（2）通过体验某种事情或面对某个人；（3）在忍受不可避免的苦难时采取某种态度。</p>
-<p>正如弗兰克尔所说，“人所拥有的任何东西，都可以被剥夺，唯独人性最后的自由，——也就是在任何境遇中选择一己态度和生活方式的自由——不能被剥夺”。</p>
-<p>人的年龄会随着时间老去，但只要你有一颗对美好向往的心灵，你就会一直向前，做自己喜欢的事情，学习想要学习的技能。时间会让人变老，但心灵永恒。</p>
-<p>世界上什么最大？是大象，是宇宙，还是地球？都不是，是我们每一个“自我”。失去身外之物不可怕，丢失或放弃自己才叫一无所有。</p>
-<p>弗兰克尔会争辩说：“只要我们拥有自主选择如何应对处境的自由，我们就不会一无所有。”</p>
-<p>【忽然间，我一生中第一次领悟到一个真理，它曾被诗人赞颂，被思想家视为绝顶智慧。这就是：爱是人类终身追求的最高目标。我理解了诗歌、思想和信仰所传达的伟大秘密的真正含义：拯救人类要通过爱与被爱。我知道世界上一无所有的人只要有片刻的时间思念爱人，那么他就可以领悟幸福的真谛。在荒凉的环境中，人们不能畅所欲言，唯一正确的做法就是忍受痛苦，以一种令人尊敬的方式去忍受，在这种处境中的人们也可以通过回忆爱人的形象获得满足。我生平第一次理解这句话“天使存在于无比美丽的永恒思念中”】——弗兰克尔</p>
-<p>相关文章：<br><a href="https://mp.weixin.qq.com/s?__biz=MzI1Njc0Nzg2Ng==&amp;mid=2247483932&amp;idx=1&amp;sn=43c425b553c82c3c07f61619dab517f4&amp;chksm=ea20b229dd573b3fefc884c2134dd00b844026fa1e20d6e89f2a047821638b8d0250a5f1acef#rd" target="_blank" rel="noopener">《活出生命的意义》：人生有何意义？</a><br><a href="https://mp.weixin.qq.com/s?__biz=MzI1Njc0Nzg2Ng==&amp;mid=2247483927&amp;idx=1&amp;sn=a3d5b8248b16a14037ed88782c367caa&amp;chksm=ea20b222dd573b3442c0e4583b3ddcfe1c5d2938ea8e7c4f00a56fec32887d548e3ec7c283c7&amp;scene=21#wechat_redirect" target="_blank" rel="noopener">这招或许能治疗你的失眠</a><br><a href="https://mp.weixin.qq.com/s?__biz=MzI1Njc0Nzg2Ng==&amp;mid=2247483921&amp;idx=1&amp;sn=29b43cdd996400a449dbf89baf834789&amp;chksm=ea20b224dd573b32471ca22dcb7467e0ef59351d3238c6a733b011c3ba461d3fa96113e1c1f5&amp;scene=21#wechat_redirect" target="_blank" rel="noopener">从疫苗说起，为悲剧性的乐观主义辩护</a></p>
+        <p>本篇解决 Spring 执行SQL脚本(文件)的问题。</p>
+<p>场景描述可以不看。</p>
+<p>场景描述：</p>
+<p>我在运行单测的时候，也就是 Spring 工程启动的时候，Spring 会去执行 classpath:schema.sql（后面会解释），我想利用这一点，解决一个问题：</p>
+<p>一次运行多个测试文件，每个文件先后独立运行，而上一个文件创建的数据，会对下一个文件运行时造成影响，所以我要在每个文件执行完成之后，重置数据库，不单单是把数据删掉，而 schema.sql 里面有 drop table 和create table。</p>
+<p>解决方法：</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//Schema 处理器</span></span><br><span class="line"><span class="meta">@Component</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">SchemaHandler</span> </span>&#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">final</span> String SCHEMA_SQL = <span class="string">"classpath:schema.sql"</span>;</span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    <span class="keyword">private</span> DataSource datasource;</span><br><span class="line">    <span class="meta">@Autowired</span></span><br><span class="line">    <span class="keyword">private</span> SpringContextGetter springContextGetter;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">execute</span><span class="params">()</span> <span class="keyword">throws</span> Exception </span>&#123;</span><br><span class="line">        Resource resource = springContextGetter.getApplicationContext().getResource(SCHEMA_SQL);</span><br><span class="line">        ScriptUtils.executeSqlScript(datasource.getConnection(), resource);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 获取 ApplicationContext</span></span><br><span class="line"><span class="meta">@Component</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">SpringContextGetter</span> <span class="keyword">implements</span> <span class="title">ApplicationContextAware</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">private</span> ApplicationContext applicationContext;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> ApplicationContext <span class="title">getApplicationContext</span><span class="params">()</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> applicationContext;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="meta">@Override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setApplicationContext</span><span class="params">(ApplicationContext applicationContext)</span> <span class="keyword">throws</span> BeansException </span>&#123;</span><br><span class="line">        <span class="keyword">this</span>.applicationContext = applicationContext;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>备注：</p>
+<p>关于为何 Spring 会去执行 classpath:schema.sql，可以参考源码</p>
+<p>org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer#runSchemaScripts</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">runSchemaScripts</span><span class="params">()</span> </span>&#123;</span><br><span class="line">		List&lt;Resource&gt; scripts = getScripts(<span class="string">"spring.datasource.schema"</span>,</span><br><span class="line">				<span class="keyword">this</span>.properties.getSchema(), <span class="string">"schema"</span>);</span><br><span class="line">		<span class="keyword">if</span> (!scripts.isEmpty()) &#123;</span><br><span class="line">			String username = <span class="keyword">this</span>.properties.getSchemaUsername();</span><br><span class="line">			String password = <span class="keyword">this</span>.properties.getSchemaPassword();</span><br><span class="line">			runScripts(scripts, username, password);</span><br><span class="line">			<span class="keyword">try</span> &#123;</span><br><span class="line">				<span class="keyword">this</span>.applicationContext</span><br><span class="line">						.publishEvent(<span class="keyword">new</span> DataSourceInitializedEvent(<span class="keyword">this</span>.dataSource));</span><br><span class="line">				<span class="comment">// The listener might not be registered yet, so don't rely on it.</span></span><br><span class="line">				<span class="keyword">if</span> (!<span class="keyword">this</span>.initialized) &#123;</span><br><span class="line">					runDataScripts();</span><br><span class="line">					<span class="keyword">this</span>.initialized = <span class="keyword">true</span>;</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">catch</span> (IllegalStateException ex) &#123;</span><br><span class="line">				logger.warn(<span class="string">"Could not send event to complete DataSource initialization ("</span></span><br><span class="line">						+ ex.getMessage() + <span class="string">")"</span>);</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">private</span> List&lt;Resource&gt; <span class="title">getScripts</span><span class="params">(String propertyName, List&lt;String&gt; resources,</span></span></span><br><span class="line"><span class="function"><span class="params">			String fallback)</span> </span>&#123;</span><br><span class="line">		<span class="keyword">if</span> (resources != <span class="keyword">null</span>) &#123;</span><br><span class="line">			<span class="keyword">return</span> getResources(propertyName, resources, <span class="keyword">true</span>);</span><br><span class="line">		&#125;</span><br><span class="line">		String platform = <span class="keyword">this</span>.properties.getPlatform();</span><br><span class="line">		List&lt;String&gt; fallbackResources = <span class="keyword">new</span> ArrayList&lt;String&gt;();</span><br><span class="line">		fallbackResources.add(<span class="string">"classpath*:"</span> + fallback + <span class="string">"-"</span> + platform + <span class="string">".sql"</span>);</span><br><span class="line">		fallbackResources.add(<span class="string">"classpath*:"</span> + fallback + <span class="string">".sql"</span>);</span><br><span class="line">		<span class="keyword">return</span> getResources(propertyName, fallbackResources, <span class="keyword">false</span>);</span><br><span class="line">	&#125;</span><br></pre></td></tr></table></figure>
+<p>参考：<a href="https://github.com/spring-projects/spring-boot/issues/9048" target="_blank" rel="noopener">https://github.com/spring-projects/spring-boot/issues/9048</a></p>
 
       
     </div>
@@ -572,7 +548,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/读书笔记/" rel="tag"># 读书笔记</a>
+            <a href="/tags/Spring/" rel="tag"># Spring</a>
           
         </div>
       
@@ -600,8 +576,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/07/23/2018/07/从疫苗说起，为悲剧性的乐观主义辩护/" rel="next" title="从疫苗说起，为悲剧性的乐观主义辩护">
-                <i class="fa fa-chevron-left"></i> 从疫苗说起，为悲剧性的乐观主义辩护
+              <a href="/2019/02/28/2019/02/idea_maven_ignore_files/" rel="next" title="idea maven工程显示灰色(不亮)">
+                <i class="fa fa-chevron-left"></i> idea maven工程显示灰色(不亮)
               </a>
             
           </div>
@@ -609,10 +585,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/07/25/2018/07/《活出生命的意义》：人生有何意义/" rel="prev" title="《活出生命的意义》：人生有何意义？">
-                《活出生命的意义》：人生有何意义？ <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
