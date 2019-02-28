@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>http://zhige.me/2019/02/28/2019/02/jackson_serialized_json_ignore_field/</loc>
+    <lastmod>2019-02-28T12:33:02.197Z</lastmod>
+    <data>
+        <display>
+        <title>Jackson 序列化对象成 JSON 字符串，忽略部分字段（属性）</title>
+        <pubTime>2019-02-28T12:14:04.711Z</pubTime>
+        
+        <tag>JSON</tag>
+         
+         
+           
+             
+              <breadCrumb title="JSON" url="http://zhige.me/categories/JSON/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://zhige.me/2019/02/28/2019/02/spring_execute_sql_script/</loc>
     <lastmod>2019-02-28T11:48:43.414Z</lastmod>
     <data>
