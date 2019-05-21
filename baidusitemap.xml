@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://zhige.me/2019/05/21/2019/05/dubbo_hessian_guava_immutablemap/</loc>
-    <lastmod>2019-05-21T11:48:12.429Z</lastmod>
+    <lastmod>2019-05-21T11:55:35.967Z</lastmod>
     <data>
         <display>
         <title>踩坑之旅：Dubbo Hessian 遇到 Guava ImmutableMap</title>
