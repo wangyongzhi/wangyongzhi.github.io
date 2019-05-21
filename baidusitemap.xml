@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>http://zhige.me/2019/05/21/2019/05/dubbo_hessian_guava_immutablemap/</loc>
+    <lastmod>2019-05-21T11:48:12.429Z</lastmod>
+    <data>
+        <display>
+        <title>踩坑之旅：Dubbo Hessian 遇到 Guava ImmutableMap</title>
+        <pubTime>2019-05-21T11:35:04.504Z</pubTime>
+        
+        <tag>踩坑之旅</tag>
+         
+         
+           
+             
+              <breadCrumb title="踩坑之旅" url="http://zhige.me/categories/%E8%B8%A9%E5%9D%91%E4%B9%8B%E6%97%85/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://zhige.me/2019/04/03/2019/04/how_to_crack_idea_2019/</loc>
     <lastmod>2019-05-10T07:26:01.453Z</lastmod>
     <data>
