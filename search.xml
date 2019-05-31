@@ -45,7 +45,8 @@
 <p>3、下载好了的 crack jar包 放到 idea 的 bin 目录下</p>
 <p>如下图所示</p>
 <p><img src="http://upload-images.jianshu.io/upload_images/1197115-0c96801e8fcdd179.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image"></p>
-<h4 id="4、修改-bin-目录下的-idea-vmoptions-文件"><a href="#4、修改-bin-目录下的-idea-vmoptions-文件" class="headerlink" title="4、修改 bin 目录下的 idea.vmoptions 文件"></a>4、修改 bin 目录下的 idea.vmoptions 文件</h4><p>把 idea.vmoptions 文件加一行如下的配置，根据你保存的文件名自行变更</p>
+<h4 id="4、修改-bin-目录下的-idea-vmoptions-文件"><a href="#4、修改-bin-目录下的-idea-vmoptions-文件" class="headerlink" title="4、修改 bin 目录下的 idea.vmoptions 文件"></a>4、修改 bin 目录下的 idea.vmoptions 文件</h4><p>4.1 启动你的IDEA，首先选择：试用（Evaluate for free）进入IDEA<br>4.2. 点击IDEA菜单：Help -&gt; Edit Custom VM Options<br>    如果提示是否要创建文件，点 Yes。</p>
+<p>把 idea.vmoptions 文件加一行如下的配置，根据你保存的文件名自行变更</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">-javaagent:../bin/jetbrains-agent.jar</span><br></pre></td></tr></table></figure>
 <p>有可能版本或者操作系统不同的原因(我的是 Mac)，有人可能没有 idea.vmoptions，但是有 idea.exe.vmoptions 和 idea64.exe.vmoptions 这两个文件，在这里面进行配置应该也是一样。</p>
 <h4 id="5、在-hosts-文件里面添加如下配置"><a href="#5、在-hosts-文件里面添加如下配置" class="headerlink" title="5、在 hosts 文件里面添加如下配置"></a>5、在 hosts 文件里面添加如下配置</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">0.0.0.0 account.jetbrains.com</span><br></pre></td></tr></table></figure>
