@@ -35,28 +35,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[IntelliJ IDEA 2019.1]]></title>
-      <url>http://zhige.me/2019/04/03/2019/04/how_to_crack_idea_2019/</url>
-      <content type="html"><![CDATA[<p>被举报了，删掉了。</p>
-<p>建议支持正版。</p>
-]]></content>
-      
-        <categories>
-            
-            <category> IntelliJ IDEA </category>
-            
-        </categories>
-        
-        
-        <tags>
-            
-            <tag> IntelliJ IDEA </tag>
-            
-        </tags>
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[Maven 批量修改版本号]]></title>
       <url>http://zhige.me/2019/03/06/2019/03/maven_batch_update_versions/</url>
       <content type="html"><![CDATA[<h4 id="1-设置新的版本号"><a href="#1-设置新的版本号" class="headerlink" title="1 设置新的版本号"></a>1 设置新的版本号</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mvn versions:set -DnewVersion=1.1.1</span><br></pre></td></tr></table></figure>
