@@ -4,10 +4,9 @@
   
     
     <entry>
-      <title></title>
+      <title><![CDATA[人有三次死亡]]></title>
       <url>http://zhige.me/2020/02/18/2020/02/%E4%BA%BA%E6%9C%89%E4%B8%89%E6%AC%A1%E6%AD%BB%E4%BA%A1/</url>
-      <content type="html"><![CDATA[<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">title: 人有三次死亡</span><br><span class="line">categories: 说说</span><br><span class="line">tags: 说说</span><br></pre></td></tr></table></figure>
-<p>人为什么活着？</p>
+      <content type="html"><![CDATA[<p>人为什么活着？</p>
 <p>人为什么活着？这是一个好问题。</p>
 <p>我也不太清楚人为什么活着。</p>
 <p>释迦牟尼为了解决这个问题出了家，结果得到的结论是人活着是为了涅，就是死。这简直近乎开玩笑了。</p>
@@ -27,6 +26,18 @@
 <p>人终有一死，你将给这个世界留下什么？</p>
 ]]></content>
       
+        <categories>
+            
+            <category> 说说 </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> 说说 </tag>
+            
+        </tags>
         
     </entry>
     
